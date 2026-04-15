@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://collab-kanban-e59k.onrender.com/api/:path*"
+    },
+    {
+      "source": "/socket.io/:path*",
+      "destination": "https://collab-kanban-e59k.onrender.com/socket.io/:path*"
+    }
+  ]
+}
